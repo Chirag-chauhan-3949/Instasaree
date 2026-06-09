@@ -94,6 +94,20 @@ function Footer() {
               >
                 Terms &amp; Conditions
               </a>
+              <span className="text-gray-600">|</span>
+              <a
+                href="#/shipping-policy"
+                className="text-gray-400 hover:text-gold transition-colors"
+              >
+                Shipping &amp; Delivery
+              </a>
+              <span className="text-gray-600">|</span>
+              <a
+                href="#/refund-policy"
+                className="text-gray-400 hover:text-gold transition-colors"
+              >
+                Cancellation &amp; Refund
+              </a>
             </nav>
 
             <div className="flex items-center gap-2">

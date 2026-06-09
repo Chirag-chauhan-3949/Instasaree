@@ -20,6 +20,8 @@ import image1 from "./images/1.jpeg";
 import Footer from "./components/Footer";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
+import RefundPolicy from "./pages/RefundPolicy";
+import ShippingPolicy from "./pages/ShippingPolicy";
 
 function getRoute() {
   return window.location.hash.replace(/^#/, "") || "/";
@@ -43,6 +45,14 @@ function App() {
 
   if (route === "/terms-and-conditions") {
     return <TermsConditions />;
+  }
+
+  if (route === "/refund-policy") {
+    return <RefundPolicy />;
+  }
+
+  if (route === "/shipping-policy") {
+    return <ShippingPolicy />;
   }
 
   const features = [
